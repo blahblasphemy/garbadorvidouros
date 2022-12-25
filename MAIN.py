@@ -21,12 +21,12 @@ import time
 OUTPUT_CSV = "OUTPUT/jodi graphics tweets referendum.csv"
 RESUME_FILE = "OUTPUT/resume_file.txt"
 SLEEP_TIME = 3 # seconds
- 
+
 
 # Configure
 c = twint.Config()
 
-c.Username = "jodigraphics15"
+c.Username = "spigaro"
 #c.Search =
 #("#Λιγναδης OR #Λιγναδης_παιδεραστης OR #Λιγναδης_gate OR #ΒΙΑΣΤΗΣ_ΕΙΝΑΙ")
 c.Since = "2015-06-27"
