@@ -21,7 +21,7 @@ import time
 OUTPUT_CSV = "OUTPUT/jodi graphics tweets referendum.csv"
 RESUME_FILE = "OUTPUT/resume_file.txt"
 SLEEP_TIME = 3 # seconds
-
+ 
 
 # Configure
 c = twint.Config()
