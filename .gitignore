@@ -108,8 +108,5 @@ ENV/
 .mypy_cache/
 
 # output
-*.csv
-*.json
-*.txt
 
 test_twint.py
