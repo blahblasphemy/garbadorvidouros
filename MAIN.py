@@ -18,7 +18,7 @@ import time
 # c.{Integer Parameter} = 42
 
 # Parameters
-OUTPUT_CSV = "OUTPUT/jodi graphics tweets referendum.csv"
+OUTPUT_CSV = "OUTPUT/Nea Smyrni.csv"
 RESUME_FILE = "OUTPUT/resume_file.txt"
 SLEEP_TIME = 3 # seconds
 
@@ -26,11 +26,11 @@ SLEEP_TIME = 3 # seconds
 # Configure
 c = twint.Config()
 
-c.Username = "spigaro"
-#c.Search =
-#("#Λιγναδης OR #Λιγναδης_παιδεραστης OR #Λιγναδης_gate OR #ΒΙΑΣΤΗΣ_ΕΙΝΑΙ")
-c.Since = "2015-06-27"
-c.Until = "2015-07-27"
+#c.Username = "spigaro"
+c.Search =
+("#Νέα_Σμύρνη OR #ΝεαΣμυρνη")
+c.Since = "2021-03-07"
+c.Until = "2021-03-17"
 c.Count = True
 c.Limit = 100
 c.Show_hashtags = True
