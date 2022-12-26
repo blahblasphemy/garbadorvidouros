@@ -49,9 +49,12 @@ while True:
     # twint.run.Followers(c)
     twint.run.Search(c)
 
-    with open(OUTPUT_CSV) as f:
-        total = len(f.readlines())-1
-        print(f"Total tweets: {total}")
+    try:
+        with open(OUTPUT_CSV) as f:
+            total = len(f.readlines())-1
+            print(f"Total tweets: {total}")
+    except:
+        pass
 
     sleep_msg = f"Sleeping for {SLEEP_TIME} seconds."
     print(f"Sleeping for {SLEEP_TIME} seconds.")
