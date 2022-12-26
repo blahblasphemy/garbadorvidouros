@@ -28,7 +28,7 @@ c = twint.Config()
 
 #c.Username = "spigaro"
 c.Search = ("#Νέα_Σμύρνη OR #ΝεαΣμυρνη OR #ποναω OR #πονάω OR #ποναω_ρε_μαλακες OR #boycottgreekmedia OR #αν_δεν_ηταν_τα_σοσιαλ OR #διαγγελμα OR #διαγγελμα_Μητσοτάκη")
-c.Since = "2021-03-07"
+c.Since = "2021-03-10"
 c.Until = "2021-03-11"
 c.Count = True
 c.Limit = 100
