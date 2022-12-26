@@ -27,7 +27,7 @@ SLEEP_TIME = 3 # seconds
 c = twint.Config()
 
 #c.Username = "spigaro"
-c.Search = ("#Νέα_Σμύρνη OR #ΝεαΣμυρνη OR #ποναω OR #πονάω OR #ποναω_ρε_μαλακες OR #boycottgreekmedia")
+c.Search = ("#Νέα_Σμύρνη OR #ΝεαΣμυρνη OR #ποναω OR #πονάω OR #ποναω_ρε_μαλακες OR #boycottgreekmedia OR #αν_δεν_ηταν_τα_σοσιαλ")
 c.Since = "2021-03-07"
 c.Until = "2021-03-17"
 c.Count = True
