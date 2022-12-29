@@ -18,7 +18,7 @@ import time
 # c.{Integer Parameter} = 42
 
 # Parameters
-OUTPUT_CSV = "OUTPUT/Nea Smyrni DS3 efthyni tsipra.csv"
+OUTPUT_CSV = "OUTPUT/Nea Smyrni DS3 dexomai to risko.csv"
 RESUME_FILE = "OUTPUT/resume_file.txt"
 SLEEP_TIME = 3 # seconds
 
@@ -27,7 +27,7 @@ SLEEP_TIME = 3 # seconds
 c = twint.Config()
 
 #c.Username = "spigaro"
-c.Search = ("#ευθυνη_Τσιπρα")
+c.Search = ("#δεχομαι_το_ρισκο")
 c.Since = "2021-03-07"
 c.Until = "2021-03-11"
 c.Count = True
