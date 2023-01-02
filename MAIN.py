@@ -28,8 +28,8 @@ c = twint.Config()
 
 c.Username = "madam_shou"
 #c.Search = ("#δεχομαι_το_ρισκο")
-c.Since = "2015-03-01"
-c.Until = "2022-12-30"
+c.Since = "2015-02-09"
+c.Until = "2023-01-2"
 c.Count = True
 c.Limit = 100
 c.Show_hashtags = True
