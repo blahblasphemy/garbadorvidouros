@@ -18,7 +18,7 @@ import time
 # c.{Integer Parameter} = 42
 
 # Parameters
-OUTPUT_CSV = "OUTPUT/Mary Lou2.csv"
+OUTPUT_CSV = "OUTPUT/stdaste.csv"
 RESUME_FILE = "OUTPUT/resume_file.txt"
 SLEEP_TIME = 3 # seconds
 
@@ -26,10 +26,10 @@ SLEEP_TIME = 3 # seconds
 # Configure
 c = twint.Config()
 
-c.Username = "madam_shou"
+c.Username = "stdaste"
 #c.Search = ("#δεχομαι_το_ρισκο")
-c.Since = "2015-02-09"
-c.Until = "2023-01-2"
+c.Since = "2022-11-27"
+c.Until = "2023-01-1"
 c.Count = True
 c.Limit = 100
 c.Show_hashtags = True
