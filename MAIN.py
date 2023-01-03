@@ -28,7 +28,7 @@ c = twint.Config()
 
 c.Username = "stdaste"
 #c.Search = ("#δεχομαι_το_ρισκο")
-c.Since = "2022-11-27"
+c.Since = "2022-09-27"
 c.Until = "2023-01-1"
 c.Count = True
 c.Limit = 100
