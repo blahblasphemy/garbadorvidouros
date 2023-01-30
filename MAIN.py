@@ -18,7 +18,7 @@ import time
 # c.{Integer Parameter} = 42
 
 # Parameters
-OUTPUT_CSV = "OUTPUT/stdaste.csv"
+OUTPUT_CSV = "OUTPUT/metinelas.csv"
 RESUME_FILE = "OUTPUT/resume_file.txt"
 SLEEP_TIME = 3 # seconds
 
