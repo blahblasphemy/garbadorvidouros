@@ -27,9 +27,9 @@ SLEEP_TIME = 3 # seconds
 c = twint.Config()
 
 #c.Username = "stdaste"
-c.Search = ("#Με_την_ΕΛΑΣ")
-c.Since = "2021-03-07"
-c.Until = "2021-03-11"
+c.Search = ("#τεμπη")
+c.Since = "2023-02-22"
+c.Until = "2023-03-22"
 c.Count = True
 c.Limit = 100
 c.Show_hashtags = True
